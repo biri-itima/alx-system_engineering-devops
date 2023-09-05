@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | nl -w1 -s': '| grep -E '^[13579]+:' | cut -d' ' -f2- 
+ls | nl -w1 -s': '| grep -E '^[13579]+:' | cut -d' ' -f2- 
